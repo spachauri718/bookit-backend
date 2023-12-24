@@ -35,7 +35,7 @@ db.once("open", function () {
   console.log("db connnected");
 });
 
-app.get("/test", (req, res) => {
+app.get("/", (req, res) => {
   res.json("test ok");
 });
 
